@@ -1,0 +1,14 @@
+name "tut_deployment"
+
+using_task_library 'rock_tutorial'
+using_task_library 'tut_follower'
+using_task_library 'tut_brownian'
+using_task_library 'controldev'
+
+simple_deployment 'joystick', 'controldev::JoystickTask'
+simple_deployment 'following', 'tut_follower::Task'
+simple_deployment 'brownian', 'tut_brownian::Task'
+simple_deployment 'follower', 'rock_tutorial::RockTutorialControl'
+simple_deployment 'target', 'rock_tutorial::RockTutorialControl'
+
+
