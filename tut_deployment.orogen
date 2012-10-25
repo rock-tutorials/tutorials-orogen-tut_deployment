@@ -10,5 +10,5 @@ simple_deployment 'following', 'tut_follower::Task'
 simple_deployment 'brownian', 'tut_brownian::Task'
 simple_deployment 'follower', 'rock_tutorial::RockTutorialControl'
 simple_deployment 'target', 'rock_tutorial::RockTutorialControl'
-
+simple_deployment 'rock_tutorial', 'rock_tutorial::RockTutorialControl'
 
