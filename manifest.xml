@@ -8,6 +8,7 @@
 
   <depend package="drivers/orogen/controldev"/>
   <depend package="tutorials/orogen/tut_follower"/>
+  <depend package="tutorials/orogen/tut_sensor"/>
   <depend package="tutorials/orogen/tut_brownian"/>
   <depend package="tutorials/orogen/tut_deployment"/>
   <depend package="tutorials/orogen/rock_tutorial"/>
